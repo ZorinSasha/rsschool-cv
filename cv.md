@@ -16,4 +16,4 @@ const func = (num) => {
   return num + 1;
 };
 ```
-* Inglish - begginer
+* English - begginer
