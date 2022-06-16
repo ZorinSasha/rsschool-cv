@@ -1,0 +1,221 @@
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+* {
+    box-sizing: border-box;
+  }
+
+.header {
+    background-color: #6e6c78;
+}
+
+.main {
+    background-color: rgba(88, 85, 87, 0.5);
+
+}
+
+.footer {
+    border: 1px solid green;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+   
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(252, 252, 252);
+    transition: .0.5s;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: rgb(180, 180, 180);
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.section {
+    width: 50%;
+}
+
+
+
+.section-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #3f4941;
+    
+    }
+
+
+  .section-item {
+    position: relative;
+    padding-left: 30px;
+  }
+  
+  .section-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px; 
+    border: 1px solid #829985;
+    border-radius: 50%;
+  }
+
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 250px;
+    top: 70px;
+}
+
+#profile {
+    position: relative;
+    left: 800px;
+    top: -100px;
+}
+
+#contacts {
+    position: relative;
+    left: 200px;
+}
+
+.img-contacts {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 200px;
+}
+
+.span-contacts {
+    position: relative;
+    left: 208px;
+    color: white;
+    top: -4px;
+}
+
+.img-mail {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 200px;
+    top: 7px;
+}
+
+.span-mail {
+    position: relative;
+    left: 208px;
+    color: white;
+    top: 3px;
+}
+
+.img-github {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 200px;
+    top: 15px;
+}
+
+.span-github {
+    position: relative;
+    left: 208px;
+    color: white;
+    top: 12px;
+}
+
+.img-telegram {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 200px;
+    top: 22px;
+}
+
+.span-telegram {
+    position: relative;
+    left: 208px;
+    color: white;
+    top: 18px;
+}
+
+.img-discord {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 200px;
+    top: 28px;
+}
+
+.span-discord {
+    position: relative;
+    left: 208px;
+    color: white;
+    top: 24px;
+}
+
+
+#summary {
+    position: relative;
+    left: 700px;
+    top: -202px;
+}
+
+.text-summary {
+    position: relative;
+    left: 700px;
+    top: -208px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+.front {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+    position: relative;
+    left: 740px;
+    top: -50px;
+}
+
+.line {
+    border-bottom: 12px solid #c9c9c9;
+}
