@@ -4,6 +4,13 @@ body {
     
 }
 
+h1 {
+    font-size: 64px;
+}
+.p-header {
+    text-align: right;
+}
+
 .main {
     display: flex;
 }
@@ -15,6 +22,7 @@ header {
 header {
     display: flex;
     color: white;
+    gap: 90px;
 }
 
 .main-img {
@@ -22,17 +30,17 @@ header {
     height: 200px;
     width: 200px;
     box-shadow: 0 0 7px #666;
-    margin: 20px;
+    margin: 35px;
 }
 
 .name {
-    display: flexbox;
-    margin-top: 50px;
-    margin-left: 80px;
+    
+    margin-top: 108px;
+    
 }
 
 .wrapper {
-    width: 1000px;
+    width: 70%;
     margin: 100px auto ;
     box-shadow: 0 0 15px rgb(39, 38, 38);
 }
@@ -143,19 +151,44 @@ header {
 
 .my-information {
     margin: 10px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #9dbb96;
 }
 
 .main-information {
     width: 100%;
+    padding: 30px;
     
 }
 
 .date {
-    margin: 10px;   
+    margin: 10px;
+    font-weight: 600;
+    color: rgb(19, 34, 20);   
 }
 
 .ei {
     margin: 10px;
-    
+    font-weight: 600;
+
 }
 
+.speciality {
+    margin: 10px;
+}
+
+.engineer {
+    margin: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px;
+    background-color: #b9ceb4;
+    font-size: 18px;
+}
+
+code {
+    font-weight: 300;
+    font-size: 15px;
+    
+}
