@@ -18,11 +18,19 @@ h1 {
 header {
     background-color: #2d4b25;
     justify-content: center;
-}
-header {
     display: flex;
     color: white;
     gap: 90px;
+}
+
+.nav__list {
+    display: flex;
+    
+
+}
+
+.nav__items {
+    list-style-type: none;
 }
 
 .main-img {
@@ -31,6 +39,7 @@ header {
     width: 200px;
     box-shadow: 0 0 7px #666;
     margin: 35px;
+    
 }
 
 .name {
@@ -40,7 +49,7 @@ header {
 }
 
 .wrapper {
-    width: 70%;
+    width: 1000px;
     margin: 100px auto ;
     box-shadow: 0 0 15px rgb(39, 38, 38);
 }
@@ -154,6 +163,7 @@ header {
     border-radius: 20px;
     padding: 30px;
     background-color: #9dbb96;
+    text-align: center;
 }
 
 .main-information {
@@ -191,4 +201,30 @@ code {
     font-weight: 300;
     font-size: 15px;
     
+}
+
+.footer {
+    background-color: #2d4b25;
+}
+
+.footer__rs__img {
+    width: 100px;
+    margin: 0 50px;
+}
+
+.footer__git__img {
+    
+    margin: 0 50px;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer__made {
+    display: flex;
+    justify-content: center;
+    color: white;
 }
