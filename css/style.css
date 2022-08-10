@@ -21,16 +21,34 @@ header {
     display: flex;
     color: white;
     gap: 90px;
+    flex-direction: column;
 }
 
 .nav__list {
     display: flex;
     
-
+    
 }
 
 .nav__items {
     list-style-type: none;
+    margin: 15px;
+    
+}
+
+.nav__a {
+    text-decoration: none;
+    transition: all .4s linear;
+    color: antiquewhite;
+}
+
+.nav__a:hover {
+    color: #6fb35e;
+    text-decoration: underline;
+}
+
+.photo__name {
+    display: flex;
 }
 
 .main-img {
@@ -38,13 +56,13 @@ header {
     height: 200px;
     width: 200px;
     box-shadow: 0 0 7px #666;
-    margin: 35px;
+    margin: -85px 121px;
     
 }
 
 .name {
     
-    margin-top: 108px;
+    margin: 0px 10px 20px 0px;
     
 }
 
