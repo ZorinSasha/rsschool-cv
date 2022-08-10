@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zorin Alexandr</title>
+    <title>CV: Zorin Alexandr</title>
+    <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -13,25 +14,27 @@
         <header>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__items">About me</li>
-                    <li class="nav__items">Education</li>
-                    <li class="nav__items">Skills</li>
-                    <li class="nav__items">Language</li>
-                    <li class="nav__items">Code</li>
-                    <li class="nav__items">Contacts</li>
+                    <li class="nav__items"><a href="#about" class="nav__a">About me</a></li>
+                    <li class="nav__items"><a href="#education" class="nav__a">Education</a></li>
+                    <li class="nav__items"><a href="#skills" class="nav__a">Skills</a></li>
+                    <li class="nav__items"><a href="#language" class="nav__a">Language</a></li>
+                    <li class="nav__items"><a href="#code" class="nav__a">Code</a></li>
+                    <li class="nav__items"><a href="#contacts" class="nav__a">Contacts</a></li>
                 </ul>
             </nav>
-            <img src="img/my_photo.jpg" alt="my photo" class="main-img">
-            <div class="name">
-                <h1>Zorin Alexandr</h1>
-                <p class="p-header">Front-end developer (Beginner)</p>
+            <div class="photo__name">
+                <img src="img/my_photo.jpg" alt="my photo" class="main-img">
+                <div class="name">
+                    <h1>Zorin Alexandr</h1>
+                    <p class="p-header">Front-end developer (Beginner)</p>
+                </div>
             </div>
         </header>
         <main>
             <div class="main">    
                 <div class="contact-skills-language">
                     <div>
-                        <h2 class="title">Contacts</h2>
+                        <h2 class="title"><a id="contacts">Contacts</a></h2>
                         <ul class="contact__items">
                             <li class="contact__item"><img src="img/github_svg.svg" alt="github" class="icon github"><a href="https://github.com/ZorinSasha" class="contact__link">GitHub</a></li>
                             <li class="contact__item"><img src="img/instagram_svg.svg" alt="instagram" class="icon instagram"><a href="https://instagram.com/zorin_zorka" class="contact__link">Instagram</a></li>
@@ -41,7 +44,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h2 class="title">Skills</h2>
+                        <h2 class="title"><a id="skills">Skills</a></h2>
                         <ul class="skills__items">
                             <li class="skill__item"><img src="img/html_svg.svg" alt="html" class="icon html">HTML</li>
                             <li class="skill__item"><img src="img/css_svg.svg" alt="css" class="icon css">CSS</li>
@@ -51,7 +54,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h2 class="title">Language</h2>
+                        <h2 class="title"><a id="language">Language</a></h2>
                         <ul class="language__items">
                             <li class="language__item">Russian</li>
                             <li class="language__item">English (A1)</li>
@@ -60,14 +63,14 @@
                 </div>
                 <div class="main-information">
                     <div class="about-me">
-                        <h2 class="title">About me</h2>
+                        <h2 class="title"><a id="about">About me</a></h2>
                         <p class="my-information">Hello! I'm Sasha, a beginner front-end developer. 
                         I want to study this field. Now I put all my energy into training. 
                         I am sure that my efforts are not in vain. In the future I would like to work in a big company. 
                         I would like to make beautiful interactive websites.</p>
                     </div>
                     <div class="education">
-                        <h2 class="title">Education</h2>
+                        <h2 class="title"><a id="education">Education</a></h2>
                         <div class="engineer">
                             <p class="date">2013 - 2017</p>
                             <p class="ei">Educational Institution "Baranovichi State University"</p>
@@ -83,7 +86,7 @@
                             <p class="ei">Internetional Language School</p>
                         </div>
                         <div class="code__caption">
-                            <h2 class="title">Code example</h2>
+                            <h2 class="title"><a id="code">Code example</a></h2>
                             <div class="code__js">
                                 <h3 class="js__caption">JavaScript</h3>
                                 <pre>
